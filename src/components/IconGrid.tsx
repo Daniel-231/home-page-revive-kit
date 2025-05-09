@@ -1,21 +1,20 @@
 
 import React from 'react';
 import { 
-  Gmail, 
+  Mail, 
   Twitter, 
   Github, 
-  Discord, 
-  Spotify, 
-  TradingView,
-  StartPage,
-  HackerNews,
-  SectorSpdr,
-  Earnings,
-  WallstreetBets,
-  VoDev,
-  Desktops,
-  MonkeyType,
-  MusicForProg,
+  MessageSquare, 
+  Music, 
+  LineChart,
+  SearchCheck,
+  Newspaper,
+  BarChart3,
+  TrendingUp,
+  Code,
+  Monitor,
+  Keyboard,
+  AudioLines,
   Search
 } from 'lucide-react';
 
@@ -41,30 +40,30 @@ const IconCard: React.FC<IconCardProps> = ({ icon, label, url }) => {
 
 const IconGrid: React.FC = () => {
   const favorites = [
-    { icon: <Gmail size={24} />, label: 'Gmail', url: 'https://mail.google.com' },
+    { icon: <Mail size={24} />, label: 'Gmail', url: 'https://mail.google.com' },
     { icon: <Twitter size={24} />, label: 'Twitter', url: 'https://twitter.com' },
     { icon: <Github size={24} />, label: 'Github', url: 'https://github.com' },
-    { icon: <Discord size={24} />, label: 'Discord', url: 'https://discord.com/app' },
+    { icon: <MessageSquare size={24} />, label: 'Discord', url: 'https://discord.com/app' },
   ];
 
   const tools = [
-    { icon: <Spotify size={24} />, label: 'Spotify', url: 'https://open.spotify.com' },
-    { icon: <TradingView size={24} />, label: 'Trading View', url: 'https://www.tradingview.com' },
-    { icon: <StartPage size={24} />, label: 'Start Page', url: 'https://startpage.com' },
-    { icon: <HackerNews size={24} />, label: 'Hacker News', url: 'https://news.ycombinator.com' },
+    { icon: <Music size={24} />, label: 'Spotify', url: 'https://open.spotify.com' },
+    { icon: <LineChart size={24} />, label: 'Trading View', url: 'https://www.tradingview.com' },
+    { icon: <SearchCheck size={24} />, label: 'Start Page', url: 'https://startpage.com' },
+    { icon: <Newspaper size={24} />, label: 'Hacker News', url: 'https://news.ycombinator.com' },
   ];
 
   const finance = [
-    { icon: <SectorSpdr size={24} />, label: 'Sector SPDRs', url: 'https://www.sectorspdr.com' },
-    { icon: <Earnings size={24} />, label: 'Earnings', url: 'https://www.earningswhispers.com' },
-    { icon: <WallstreetBets size={24} />, label: 'Wallstreet Bets', url: 'https://www.reddit.com/r/wallstreetbets' },
-    { icon: <VoDev size={24} />, label: 'VO.dev', url: 'https://vo.dev' },
+    { icon: <BarChart3 size={24} />, label: 'Sector SPDRs', url: 'https://www.sectorspdr.com' },
+    { icon: <TrendingUp size={24} />, label: 'Earnings', url: 'https://www.earningswhispers.com' },
+    { icon: <LineChart size={24} />, label: 'Wallstreet Bets', url: 'https://www.reddit.com/r/wallstreetbets' },
+    { icon: <Code size={24} />, label: 'VO.dev', url: 'https://vo.dev' },
   ];
 
   const others = [
-    { icon: <Desktops size={24} />, label: 'Desktops', url: 'https://www.reddit.com/r/desktops' },
-    { icon: <MonkeyType size={24} />, label: 'MonkeyType', url: 'https://monkeytype.com' },
-    { icon: <MusicForProg size={24} />, label: 'Music for Prog', url: 'https://musicforprogramming.net' },
+    { icon: <Monitor size={24} />, label: 'Desktops', url: 'https://www.reddit.com/r/desktops' },
+    { icon: <Keyboard size={24} />, label: 'MonkeyType', url: 'https://monkeytype.com' },
+    { icon: <AudioLines size={24} />, label: 'Music for Prog', url: 'https://musicforprogramming.net' },
     { icon: <Search size={24} />, label: 'Search', url: 'https://www.google.com' },
   ];
 
